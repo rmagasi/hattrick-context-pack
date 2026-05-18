@@ -283,7 +283,7 @@ Performance ≈ % of health. Bruised health = [0.9, 1.0). Average ≈ 0.95.
 
 ## Sources
 - LA-Alpa, "[HT] The Unwritten manual #15", Hattrick Global English Forum thread 17665541 (sections 2 "Skills" and 3 "Other Attributes")
-- **Official Hattrick rulebook**, <https://www87.hattrick.org/Help/Rules/Complete.aspx> - authoritative XP table per match type, current loyalty bonus values (+1 at Divine, +0.5 motherclub).
+- **Official Hattrick rulebook**, <https://www.hattrick.org/Help/Rules/Complete.aspx> - authoritative XP table per match type, current loyalty bonus values (+1 at Divine, +0.5 motherclub).
 - Schum (manager 5176908) — stamina decay tables
 - WesselV1 (manager 11234483) — XP-to-rating contribution formulas (HT thread 17371940.86)
 - HT-Tasos editorials (Jan 2024 update on coach form contribution; Sept 2024 update on injury system)

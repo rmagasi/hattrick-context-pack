@@ -47,7 +47,7 @@ Use the GitHub Issues templates for proposing changes you don't want to write yo
 
 The knowledge in this pack is sourced from:
 
-- **Official Hattrick rulebook**: <https://www87.hattrick.org/Help/Rules/Complete.aspx>
+- **Official Hattrick rulebook**: <https://www.hattrick.org/Help/Rules/Complete.aspx>
 - **The "Unwritten Manual #15"** by LA-Alpa et al. (Hattrick Global English forum thread 17665541), the primary community-curated mechanics reference.
 - **Hattrick Developer Blog**: <https://devblog.hattrick.org/>
 - **Hattrick Wiki**: <https://wiki.hattrick.org/>

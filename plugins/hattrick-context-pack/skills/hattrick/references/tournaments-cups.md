@@ -553,7 +553,7 @@ End of official matches (League and Cup) only:
 
 ## Sources
 - LA-Alpa, "[HT] The Unwritten manual #15", Hattrick Global English Forum thread 17665541 (sections 19 "Series System", 20 "Cup System", 21 "Friendlies", 22 "Arena Competitions", 23 "National Teams", 24 "Hattrick Masters", 25 "Additional Club")
-- **Official Hattrick rulebook**, <https://www87.hattrick.org/Help/Rules/Complete.aspx> - current league, cup, promotion prize money tables and HFI 25% reduction (clipped May 2026). League prize, promotion bonus and cup prize tables now use these authoritative numbers.
-- **HFI local-schedule page**, <https://www87.hattrick.org/World/Leagues/Events.aspx?LeagueID=3000> - HFI match times and update timeline.
+- **Official Hattrick rulebook**, <https://www.hattrick.org/Help/Rules/Complete.aspx> - current league, cup, promotion prize money tables and HFI 25% reduction (clipped May 2026). League prize, promotion bonus and cup prize tables now use these authoritative numbers.
+- **HFI local-schedule page**, <https://www.hattrick.org/World/Leagues/Events.aspx?LeagueID=3000> - HFI match times and update timeline.
 - HT Editorials: April 2024 (Team creation), July 2024 (Flexible league system), November 2023 & November 2024 (YA/Scout system updates), May 2025 (overconfidence tweaks), Feb 2025 (substitute conditional orders).
 - HT-Tasos comments on World Cup forum (NT release rules)

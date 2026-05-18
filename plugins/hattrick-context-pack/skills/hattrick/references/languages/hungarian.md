@@ -6,7 +6,7 @@ This file is an **optional language pack**. The bundle assembly logic can includ
 
 ## A note on the English equivalents
 
-The English labels in parentheses are **descriptive paraphrases**, not the literal text Hattrick uses in the official English UI. Hattrick's English interface uses creative phrases for some levels (e.g. the top sponsor mood is "Sending love poems to you", not "ecstatic"). To keep this reference pack clearly distinct from Hattrick's official wording (per CHPP rule 7.2), the English-side labels below convey meaning rather than reproduce the official strings. For the actual official wording in any language, see Appendix 2 of the rulebook: <https://www87.hattrick.org/Help/Rules/AppDenominations.aspx>.
+The English labels in parentheses are **descriptive paraphrases**, not the literal text Hattrick uses in the official English UI. Hattrick's English interface uses creative phrases for some levels (e.g. the top sponsor mood is "Sending love poems to you", not "ecstatic"). To keep this reference pack clearly distinct from Hattrick's official wording (per CHPP rule 7.2), the English-side labels below convey meaning rather than reproduce the official strings. For the actual official wording in any language, see Appendix 2 of the rulebook: <https://www.hattrick.org/Help/Rules/AppDenominations.aspx>.
 
 The Hungarian-side labels ARE the official Hungarian UI strings, included as factual reference so the AI can understand what a Hungarian-speaking user is referring to.
 
@@ -123,7 +123,7 @@ See `economy-detail.md` for the full currency conversion reference (Appendix 3 o
 
 ## Source
 
-This terminology mapping is derived from **Appendix 2 of the official Hattrick rulebook**: <https://www87.hattrick.org/Help/Rules/AppDenominations.aspx>. The rulebook is the authoritative source for all qualitative scales in every supported language.
+This terminology mapping is derived from **Appendix 2 of the official Hattrick rulebook**: <https://www.hattrick.org/Help/Rules/AppDenominations.aspx>. The rulebook is the authoritative source for all qualitative scales in every supported language.
 
 ## Contributing other languages
 

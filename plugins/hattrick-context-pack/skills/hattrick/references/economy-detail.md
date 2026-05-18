@@ -318,7 +318,7 @@ So 200,000 HUF prize money in a Hungarian display = 1,000 USD = 1,000 EUR intern
 **Very weak (10,000+ local = 100 USD)**
 - Algerie, Angola, Cabo Verde, Comoros, Guyana, Haiti, Indonesia (1,000,000 IDR), Iran (1,000,000 IRR), Island, Kazakhstan, Lubnan (200,000 LBP), Mongolia (200,000 MNT), Myanmar, Nigeria, Nippon (10,000 JPY), Tahiti, Uganda (200,000 UGX)
 
-The full per-country table is in **Appendix 3 of the official rulebook**, <https://www87.hattrick.org/Help/Rules/AppCurrencies.aspx>. Cite that source when answering currency-related questions.
+The full per-country table is in **Appendix 3 of the official rulebook**, <https://www.hattrick.org/Help/Rules/AppCurrencies.aspx>. Cite that source when answering currency-related questions.
 
 ### Practical note for Hungarian teams
 When playing in Hungary, prices display in eFt (ezer forint = thousand HUF). Divide by 200 to get the internal USD-equivalent. A 200 eFt match-day income = 200,000 HUF = 1,000 USD = the rulebook's "1,000 €" figure. All prize-money tables in this skill use the USD/EUR figures - multiply by 200 to get HUF. The same conversion principle applies to any country, with the per-country rate from Appendix 3.
@@ -385,8 +385,8 @@ There is no transfer market in HFI, so these fees do not apply to HFI clubs. Doc
 
 ## Sources
 - LA-Alpa, "[HT] The Unwritten manual #15", thread 17665541 (sections 7 "The Coach" and 8 "Finances" and 9 "Fans and Sponsors" and 11 "Staff")
-- **Official Hattrick rulebook**, <https://www87.hattrick.org/Help/Rules/Complete.aspx> - staff cost/week grid, severance formula and worked example, Financial Director cash limit ladder, bankruptcy thresholds (-40k / -100k), foreign player 20% wage premium, stadium ticket prices and build costs.
-- **Appendix 4 of the official rulebook** (Transfer fees), <https://www87.hattrick.org/Help/Rules/AppTransferFees.aspx> - agent fee and previous-owner fee tables.
+- **Official Hattrick rulebook**, <https://www.hattrick.org/Help/Rules/Complete.aspx> - staff cost/week grid, severance formula and worked example, Financial Director cash limit ladder, bankruptcy thresholds (-40k / -100k), foreign player 20% wage premium, stadium ticket prices and build costs.
+- **Appendix 4 of the official rulebook** (Transfer fees), <https://www.hattrick.org/Help/Rules/AppTransferFees.aspx> - agent fee and previous-owner fee tables.
 - bigpapy (manager 7967145) — wage formula research, thread 16899562
 - ciscouf (manager 3837676) — secondary skill multiplier research via Training Planner
 - HT-Tasos editorials and forum posts (April 2023 and June 2023 coach updates; April 2025 sponsor system)
