@@ -217,6 +217,36 @@ So the HFI weekly cycle is **Tuesday cup, Thursday training, Friday economy, Sat
 
 ---
 
+## Hungary (men's main league) - schedule
+
+Country code: LeagueID=51. Source: <https://www.hattrick.org/World/Leagues/Events.aspx?LeagueID=51>.
+
+### Hungary weekly schedule (HT-time, CET-equivalent)
+
+| Event | Day & time |
+|---|---|
+| Daily update | Monday 07:20 |
+| Daily update | Tuesday 07:20 |
+| Daily update | Tuesday 23:00 |
+| Daily update | Thursday 09:45 |
+| Training update + daily update | Thursday 17:45 |
+| Daily update | Friday 07:14 |
+| Weekly + daily update (economy) | Friday 23:15 |
+| Cup matches (main + secondary, secondary 15-45 min later) | Wednesday 09:45 |
+| Friendlies, domestic, normal rules | Wednesday 09:45 |
+| Friendlies, domestic, cup rules | Wednesday 09:45 |
+| International friendlies, normal rules | Wednesday 09:45 |
+| International friendlies, cup rules | Wednesday 09:45 |
+| League matches (Level 6 and higher) | Saturday 15:30 |
+
+So the Hungary weekly cycle is **Wednesday cup + friendlies, Thursday training, Friday economy, Saturday league**. Hungarian friendlies (both domestic and international, both rule sets) all share the Wednesday 09:45 slot alongside cup matches, the country has consolidated all midweek competitive and friendly play into a single time window.
+
+### Hungary vs HFI - same season, different week
+
+For a manager running both a Hungarian men's team and an HFI women's team (e.g., a multi-team account), the cycle is staggered, training falls Thursday 17:45 in Hungary versus 10:30 in HFI, economy falls Friday 23:15 versus 13:15, league falls Saturday 15:30 versus 18:30. The HRF download and order-setting deadlines therefore differ by country, plan workflows around the earlier-of-the-two cutoffs if managing both.
+
+---
+
 ## Friendlies
 
 International friendly schedule and times: see <https://wiki.hattrick.org/index.php?title=Friendly>.
@@ -435,8 +465,8 @@ Gate revenue is split 50/50.
 The 16-week rule (must wait 16 weeks before opening a new additional club after a previous one was launched) is **temporarily removed** by HTs when new nations are created (during offseason). In that case, only one closing + opening is allowed to prevent abuse.
 
 ### Eligibility
-- **Diamond Supporter**: up to **3 additional clubs**.
-- **Platinum Supporter + Extra Club License**: up to **1 additional club**.
+- **Diamond Supporter**: up to **3 additional clubs** by default, no licenses required.
+- **Platinum Supporter**: **1 additional club** by default. Buy **Extra Club Licenses** to expand up to **3** additional clubs.
 - Additional clubs start with the same cash as any new team but skip the Manager Training.
 
 ### Rules across your clubs
@@ -458,6 +488,28 @@ The 16-week rule (must wait 16 weeks before opening a new additional club after 
 
 ### Voting (additional clubs in other countries)
 First vote after 2 seasons; "senior" vote after 10 seasons (and that is the cap - max 2 votes per additional team, vs 4 for a primary). Hattrick International and Self-Made Players League don't grant any voting rights.
+
+### Other edge cases (Rules 20)
+- **Platinum default**: by default Platinum gets **1** additional club, you can purchase **Extra Club Licenses** to raise this up to **3**. Diamond starts at 3 with no licenses required.
+- **3 of your teams in the same cup semi-final** is rare but possible, in that case two of your sister teams will face each other, the rulebook does not exempt you. The "no meeting before the final" rule has this exception baked in.
+- **Switching window between seasons**: additional clubs can switch series in the same series-switching window as primary clubs, with one constraint, you cannot switch INTO a series where another of your clubs already plays.
+- **Flags**: each club collects its own flag set, playing against your sister team rewards both clubs with their respective new flags.
+- **Achievements**: tracked per **manager**, not per club. Earning an achievement on the additional team adds it to your single manager achievement list.
+- **Switching country**: not directly possible, you have to close the additional club (16-week cooldown) and open a new one in the new country. The cooldown is **waived** when Hattrick launches a brand-new nation, in those windows you can close-and-reopen once without waiting.
+
+---
+
+## Divisional Battles & seasonal Trophies (Rules 17)
+
+These are official Hattrick Arena competitions, free to participate in if invited, that sit alongside league and cup play.
+
+**Divisional Battles**, your league series collectively competes against another series in the same division each week. Every participating team plays one team from the other series in a parallel friendly-style match. Goal, finish the season as the **best series in your division**. Useful as a side metric and for bragging rights, no league or cup implications.
+
+**Generation Trophy**, pre-season invitational tournament where managers who joined Hattrick around the same time bracket against each other. Free entry for those invited.
+
+**Supporter Trophy**, pre-season invitational tournament open to all current Hattrick Supporters (Bronze and up).
+
+All three competitions run under standard Hattrick Arena rules, fixed TS (content) and Confidence (wonderful), no training, no XP, no injuries, no formation experience changes, neutral venue with no gate income.
 
 ---
 

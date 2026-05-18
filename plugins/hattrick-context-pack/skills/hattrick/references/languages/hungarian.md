@@ -115,9 +115,13 @@ Anchor points worth memorizing: **remek = Excellent**, **jó = Solid**, **megfel
 
 ## Currency notation
 
-Hungarian managers see prices in **eFt** (ezer Forint = thousand HUF). To convert in-game eFt to the internal USD-equivalent used in Hattrick's rulebook prize tables, divide by 200 (since 1 USD = 200 HUF in Hattrick's internal conversion).
+Hungarian managers see prices in **eFt** (ezer Forint = thousand HUF). The conversion is **1 eFt = €5 = $5** (Appendix 3: `20 eFt = 100 US$`, with Eurozone parity meaning $100 = €100). So:
 
-For example: a match-day income of 200 eFt = 200,000 HUF = 1,000 USD = the rulebook's "1,000 €" figure. All prize-money tables in the main skill use USD/EUR figures - multiply by 200 to get HUF.
+- To get EUR/USD from eFt, multiply by 5. Example: 200 eFt match-day income = €1 000 = $1 000.
+- To get HUF from eFt, multiply by 1,000 (since 1 eFt = 1,000 HUF by definition).
+- To convert back: 1,000 USD/EUR = 200 eFt = 200,000 HUF (multiply by 0.2 for eFt, by 200 for HUF).
+
+All prize-money tables in the main skill use EUR/USD figures, multiply by 0.2 to get the eFt the Hungarian UI shows, or by 200 to get HUF.
 
 See `economy-detail.md` for the full currency conversion reference (Appendix 3 of the official rulebook).
 

@@ -158,6 +158,33 @@ When you buy a player from another team:
 - Youth injury updates: ~03:00 HT time daily.
 - Youth friendly training effectiveness: **80% of a league game** (raised from 50% in November 2023).
 
+**Promotion to senior squad (Rules 13)**:
+- Player must be **17+ years old** AND have been in your youth team for **at least 1 season = 112 days**. A 17-year-old you just pulled cannot be promoted, you must hold him for 16 weeks first.
+- Cannot promote if it leaves the youth squad with **fewer than 11 match-eligible players** (under-19s).
+- Cannot promote if the senior squad already has **50 players**.
+- Once a player turns **19**, he stops playing youth matches but stays in the squad as "ready to promote", he disappears from the field until you move him to the senior side.
+- **Promotion cost**: €2 000 (400 eFt).
+
+**Skill reveals from matches (Rules 13)**:
+- The "44-minute reveal threshold" is the rulebook minimum, a youth player must have played **at least 44 minutes in a trainable position** during the match to be eligible for a primary-skill current-level reveal.
+- A player below the 44-min threshold gets only the "very small effect" training and **no reveal**.
+- **Primary training** reveals current level of one eligible player per match in the trained skill.
+- **Secondary training** reveals maximum potential of one eligible player per match in the secondary-trained skill (if primary and secondary differ, otherwise no secondary reveal).
+- If a revealed player already hit his cap in that skill this week, the coach reports "cannot continue training" instead of a numeric reveal.
+- If fewer than 8 players finished the match on the pitch, **no reveals happen at all**.
+- The coach additionally reports one of the **top-3 highest-potential players in a non-trained skill** each week (a separate, free reveal slot).
+
+**Costs (Rules 13)**:
+- One-time **registration fee**: €5 000 (1 000 eFt) when opening a youth team.
+- Weekly base: €10 000 (2 000 eFt) for 1 scout.
+- Each additional scout: **€5 000 (1 000 eFt) per week** plus a **€5 000 (1 000 eFt) signing bonus** in the hire week. Max 3 scouts, never fewer than 1.
+
+**Closing the youth team (Rules 13)**:
+- Allowed only between youth seasons OR if the youth team is not in any youth league.
+- Minimum operating period: **6 weeks**.
+- "Restart youth team" (full wipe of squad + scouts, keeps league slot) is irreversible and limited to **once per 3 seasons (48 weeks)**.
+- Restart button only appears if the team has been inactive ≥3 weeks with no scout calls, OR no scouts called this week AND fewer than 9 eligible (under-19) players in the squad.
+
 ## Sources
 - LA-Alpa, "[HT] The Unwritten manual #15", Hattrick Global English Forum thread 17665541 (sections 6 "Training" and 18 "Youth players")
 - HT-Tasos editorials (Dec 2024 training update consolidation; Sept 2024 injury system; Nov 2023 youth update)

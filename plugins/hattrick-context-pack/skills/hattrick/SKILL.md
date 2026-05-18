@@ -221,6 +221,8 @@ Tactical Assistant unlocks extra order slots (1 per TA level, max +5).
 
 Coefficients multiply. Example: Home + MOTS = 1.19892 × 1.1149 = 133.67%. Home + PIC + CA = 1.19892 × 0.83945 × 0.93 = 93.6%.
 
+**Derby = same region** (Rules 04). The "Derby" coefficient above is NOT NT-only - it applies to ANY club match where both teams are from the same Hattrick region (e.g., two Pest-region teams in Hungary). The home team still gets the full 119.892% home advantage, the away team additionally gets the 111.493% derby boost (roughly half of the home advantage). Games played on neutral ground do NOT trigger the derby bonus even if the stadium is in the region of one of the teams.
+
 **New Confidence system (May 2024):**
 - Effects are slower and depend on more factors.
 - Goals matter, but **fan expectations**, **coach leadership**, and **staff psychologist** also factor in.
@@ -233,6 +235,13 @@ Coefficients multiply. Example: Home + MOTS = 1.19892 × 1.1149 = 133.67%. Home 
 - Only MOTS fully prevents underestimation.
 - Triggered above ~Decent/Strong confidence; can drop midfield up to 70%.
 - Risk and impact were both slightly reduced in May 2025 to compensate for new confidence system letting teams stay high-confidence longer.
+- **First-3-rounds exception (Rules 11):** underestimation can ONLY occur in league/series matches, and NEVER in the first three rounds of a season. So no risk to plan around in S77 weeks 1-3 (or equivalent), the standings have not stabilised enough for the engine to flag a "weaker opponent".
+- **Half-time recovery (Rules 11):** if you ARE being underestimated, the team partially recovers at half-time depending on the score:
+  - Trailing at HT → **full** recovery (100% of the underestimation penalty removed)
+  - Tied at HT → **2/3** recovery
+  - Leading by exactly 1 goal → **1/3** recovery
+  - Leading by 2+ goals → no recovery (you stay underestimating, because the lead "confirms" the bias)
+- **Half-time pep-talk (Rules 11):** the coach can additionally pull a team out of a bad first half via a half-time "tongue lashing", reduces confusion / disorganisation events that appeared in H1. This is a separate mechanic from underestimation recovery, but the two can stack in the same half-time window. Magnitude scales with coach Leadership.
 
 ### Match Dynamics
 - Team 2 goals ahead: **−9% attack, +7.5% defence per goal of lead** (latest official numbers; older "−6.25/+5%" values were superseded).
@@ -303,7 +312,8 @@ Extreme weather (Rain/Sunny) is roughly half as common as the middle two states 
 - Promotion or relegation triggers a one-season **sponsor mood adjustment** (slightly more or less); fully resets after one season.
 - **Player sales**: Transfer income (minus agent fee).
 - **Transfer commissions**: 3% as last owner, 2% as original club when player is sold.
-- **Fan membership fees**: Annual, based on fan club size.
+- **Fan membership fees**: Annual, based on fan club size (€30 / 6 eFt per member per season).
+- **Rich-team fan reaction penalty (Rules 08)**: large cash reserves make fans *harder to please*. Rich teams' fan club mood reacts **more harshly to losses and less positively to wins** than poorer clubs. The effect scales with money on hand. For low-confidence/low-TS situations this argues for not hoarding cash, spend on training infrastructure (staff rotation, Specialist hires) or transfer market activity rather than letting it pile up.
 
 ### Weekly Expenses
 - **Player wages**: Base 250€/player + skill/age premium. Specialists earn +10% wage bonus (phased in over 5 seasons starting season 83 / Oct 2022; +2% per season).
@@ -582,6 +592,8 @@ Divisional Cup prizes are smaller (winner 60k, runner-up 30k, SF 20k, QF 10k, R1
 - **Mid-week**: Friendly or cup — always play to double training volume.
 - **Weekend after match**: Economy update (income + expenses).
 
+**Per-country times vary.** The specific HT-time for each update and match slot is set per country (LeagueID), the values above are the generic pattern. Examples confirmed in this pack: Hungary (LeagueID=51) trains Thursday 17:45, plays cup + friendlies Wednesday 09:45, league Saturday 15:30, economy Friday 23:15. HFI (LeagueID=3000) trains Thursday 10:30, cup Tuesday 17:00, league Saturday 18:30 / 18:45, economy Friday 13:15. For any other country, fetch its schedule from `https://www.hattrick.org/World/Leagues/Events.aspx?LeagueID=<id>` or the CHPP `worlddetails` endpoint. Country times were last broadly retimed in April 2024.
+
 ### Priority Decision Framework
 **New manager checklist:**
 1. Set training to 100% intensity, 15% stamina (or 10% if aggressive).
@@ -663,6 +675,7 @@ Other languages (German, Spanish, Swedish, Polish, etc.) follow the same pattern
 - **Appendix 3 of the rulebook** (Currencies): <https://www.hattrick.org/Help/Rules/AppCurrencies.aspx>. Authoritative source for per-country USD-equivalent pegs, used as the base for any local-currency conversion (e.g., HUF / EUR / SEK / GBP).
 - **Appendix 4 of the rulebook** (Transfer fees): <https://www.hattrick.org/Help/Rules/AppTransferFees.aspx>. Authoritative agent fee scale by holding time and previous-owner fee scale by matches played.
 - **HFI local schedule page**: <https://www.hattrick.org/World/Leagues/Events.aspx?LeagueID=3000>. Source for HFI weekly schedule (Tuesday cup 17:00, Thursday training 10:30, Friday economy 13:15, Saturday league 18:30 / 18:45).
+- **Hungary local schedule page**: <https://www.hattrick.org/World/Leagues/Events.aspx?LeagueID=51>. Source for Hungary (men's main league) weekly schedule (Wednesday cup + friendlies 09:45, Thursday training 17:45, Friday economy 23:15, Saturday league 15:30). For per-country schedules of other countries, use the same `Events.aspx?LeagueID=<id>` URL pattern, country times were last broadly retimed in April 2024.
 - Devblog: <https://devblog.hattrick.org/> (HT-Tasos posts on chance distribution, SE framework, man marking, PNF/PDIM, AIM/AOW/LS reviews)
 - Wiki: <https://wiki.hattrick.org/>
 - Live-data studies by **nickarana** (manager 884407) on regular and CA chance distribution, conversion rates, set piece statistics

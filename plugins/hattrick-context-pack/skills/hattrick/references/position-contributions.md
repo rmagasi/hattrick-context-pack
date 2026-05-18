@@ -248,6 +248,41 @@ Stacking penalty: **−4% each for 2**, **−7.5% each for 3**.
 
 ---
 
+## Individual orders - qualitative effects per position (Rules 03)
+
+The rulebook describes individual orders in plain-language deltas rather than fixed percentages, the formulas in this pack already encode them numerically per role (DF, FTW, AIM, etc.), this section is the human-readable summary so AI can map a user question like "what does a defensive winger do?" to the right mechanic.
+
+**Wing back (WB)**
+- *Offensive*, somewhat more Winger, somewhat more Playmaking, less Defending.
+- *Defensive*, somewhat more Defending, less Winger, somewhat less Playmaking.
+- *Toward middle*, much more central Defending, less side Defending, much less Winger, somewhat more Playmaking.
+
+**Central defender (CD)**
+- *Offensive*, more Playmaking, much less Defending.
+- *Toward wing*, much more side Defending, much less central Defending, some Winger, somewhat less Playmaking.
+
+**Winger (W)**
+- *Offensive*, more Winger, somewhat more Passing, less Defending, less Playmaking.
+- *Defensive*, much more Defending, less Winger, less Playmaking, somewhat less Passing.
+- *Toward middle*, somewhat more Playmaking, less Winger, somewhat more central Defending, somewhat less side Defending, somewhat more central Passing, less side Passing.
+
+**Inner midfielder (IM)**
+- *Offensive*, more Passing, much less Defending, somewhat less Playmaking, somewhat more Scoring.
+- *Defensive*, more Defending, less Passing, somewhat less Playmaking, somewhat less Scoring.
+- *Toward wing*, a nice amount of Winger, somewhat less Playmaking, somewhat more side Passing/Defending, somewhat less central Passing/Defending, no Scoring.
+
+**Forward (FW)**
+- *Defensive* (= DF), somewhat more Playmaking, more Passing (Technical forwards get even more side Passing), much less Scoring, somewhat less Winger.
+- *Toward wing* (= FTW), more Winger, much more side Scoring/Passing, much less central Scoring/Passing, somewhat less off-side Scoring/Winger/Passing, somewhat less Playmaking.
+
+Key takeaways for tactical guidance:
+- Wing back "toward middle" turns a WB into a quasi-CD with a Playmaking lift, useful against AIM opponents.
+- CD "toward wing" turns a CD into a quasi-WB without losing all central coverage, useful against AOW opponents.
+- IM "toward wing" gives no Scoring, do not pair it with PIC unless you accept losing central attack entirely.
+- FW Defensive (DF) is the textbook setup for a "playmaking forward" that drops to feed wing attacks, FW Toward wing (FTW) is the "wide forward" that becomes a second winger on one side.
+
+---
+
 ## Worked Example (Unwritten Manual)
 
 Player skills:

@@ -309,7 +309,7 @@ So 200,000 HUF prize money in a Hungarian display = 1,000 USD = 1,000 EUR intern
 - Bhutan, Ceska (Czech koruna), India, Ityoppya (Birr), Kampuchea, Madagasikara, Malaysia, Misr (Egypt), Pilipinas, Polska, Prathet Thai, Rossiya, Saudi Arabia, South Africa: rates where 125 USD = some round local amount
 
 **Hungary tier (1 USD = 200 local)**
-- Magyarorszag: `20 eFt = 100 USD` (1 USD = 200 HUF)
+- Magyarorszag: `20 eFt = 100 USD` (so 1 eFt = €5 = $5; 1 USD = 200 HUF)
 - Argentina, Bahamas, Belarus (BYN), Botswana, Curacao, Honduras, Liechtenstein, Mexico, Schweiz, Singapore, Suriname, Trinidad, Turkiye, Venezuela, Vietnam, Zambia (some at 100 / 200 / 500 / 1000 ratios)
 
 **Weak currencies (5,000+ local = 100 USD)**
@@ -321,7 +321,7 @@ So 200,000 HUF prize money in a Hungarian display = 1,000 USD = 1,000 EUR intern
 The full per-country table is in **Appendix 3 of the official rulebook**, <https://www.hattrick.org/Help/Rules/AppCurrencies.aspx>. Cite that source when answering currency-related questions.
 
 ### Practical note for Hungarian teams
-When playing in Hungary, prices display in eFt (ezer forint = thousand HUF). Divide by 200 to get the internal USD-equivalent. A 200 eFt match-day income = 200,000 HUF = 1,000 USD = the rulebook's "1,000 €" figure. All prize-money tables in this skill use the USD/EUR figures - multiply by 200 to get HUF. The same conversion principle applies to any country, with the per-country rate from Appendix 3.
+When playing in Hungary, prices display in eFt (ezer forint = thousand HUF). The conversion is **1 eFt = €5 = $5** (Appendix 3: `20 eFt = 100 US$`, with 100 € = 100 US$ for Eurozone countries). So a 200 eFt match-day income = €1 000 = $1 000 = 200,000 HUF. All prize-money tables in this skill use the EUR/USD figures, multiply by 0.2 (or divide by 5) to get the eFt-equivalent the Hungarian UI shows. To convert in the other direction (eFt to HUF), multiply by 1,000. The same conversion principle applies to any country with the per-country rate from Appendix 3.
 
 ---
 

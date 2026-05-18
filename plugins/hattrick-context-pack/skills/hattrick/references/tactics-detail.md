@@ -367,6 +367,12 @@ Taker effectiveness = XP × 1.5 + SP × 0.7 + SCO × 0.3
 - If your SP taker is substituted, the **second player** in the Penalty Takers tab takes set pieces (not the substitute who came in).
 - Worst penalty taker should be listed last (shootouts rarely exceed 10 kicks).
 
+**Momentum bonus (rulebook):**
+- A taker who **scored a penalty earlier in the same match** gets **+10%** on his next shot in the shootout. Includes penalties scored during regular/extra time, not only earlier shootout kicks.
+- A keeper who **saved a penalty earlier in the same match** (regular play, extra time, or earlier shootout kick) gets **+10%** on the next save attempt.
+- Momentum is broken the moment the streak is broken (taker missing, keeper failing to save), and has to be rebuilt.
+- Practical implication: order your shootout takers so that whoever scored an in-play penalty earlier (typically your set-piece taker) goes first in the shootout to carry the +10% into the first kick. Same logic for predictably keeping your starting keeper on the field.
+
 ### Indirect Free Kick (IFK)
 ```
 off IFK = 0.5 × m_Att + 0.3 × m_SP + 0.09 × SP_shooter
