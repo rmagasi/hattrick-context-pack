@@ -1,0 +1,10 @@
+{
+  "name": "hattrick-context-pack",
+  "version": "2.0.0",
+  "description": "Community-maintained Hattrick.org knowledge pack for AI assistants. Covers training, match tactics, formations, economy, youth academy, cups, and national teams. Built from the official rulebook, the Unwritten Manual, the developer blog, and community research. Optional language packs (Hungarian today, contributable) under skills/hattrick/references/languages/.",
+  "author": {
+    "name": "Robert Magasi"
+  },
+  "keywords": ["hattrick", "football-manager", "sports", "game-assistant", "ai-knowledge-pack"],
+  "license": "MIT"
+}
