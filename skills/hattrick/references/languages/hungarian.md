@@ -4,39 +4,45 @@ Terminology mappings for Hattrick managers playing the game in Hungarian. HRF fi
 
 This file is an **optional language pack**. The bundle assembly logic can include it conditionally, when the user indicates they play in Hungarian or wants Hungarian terminology supported. Other language packs follow the same pattern, one file per language under `references/languages/`.
 
+## A note on the English equivalents
+
+The English labels in parentheses are **descriptive paraphrases**, not the literal text Hattrick uses in the official English UI. Hattrick's English interface uses creative phrases for some levels (e.g. the top sponsor mood is "Sending love poems to you", not "ecstatic"). To keep this reference pack clearly distinct from Hattrick's official wording (per CHPP rule 7.2), the English-side labels below convey meaning rather than reproduce the official strings. For the actual official wording in any language, see Appendix 2 of the rulebook: <https://www87.hattrick.org/Help/Rules/AppDenominations.aspx>.
+
+The Hungarian-side labels ARE the official Hungarian UI strings, included as factual reference so the AI can understand what a Hungarian-speaking user is referring to.
+
 ## Skill / rating levels (high to low)
 
-**Player skills (21+ levels):** isteni (Divine) - csodas (Magical) - varazslatos (Mythical) - legendas (Extra-Terrestrial) - foldontuli (Titanic) - titani (Supernatural) - termeszetfeletti (World Class) - vilagklasszis (Magnificent) - lenyugozo (Brilliant) - ragyogo (Outstanding) - kiemelkedo (Formidable) - nagyszeru (Excellent) - remek (Solid) - jo (Passable) - megfelelo (Inadequate) - kozepszeru (Weak) - gyenge (Poor) - csapnivalo (Wretched) - pocsek (Disastrous) - katasztrofalis (Non-existent) - nem letezo (no skill)
+**Player skills (21 levels, high to low):** isteni (Divine) - csodás (Utopian) - varázslatos (Magical) - legendás (Mythical) - földöntúli (Extra-Terrestrial) - titáni (Titanic) - természetfeletti (Supernatural) - világklasszis (World Class) - lenyűgöző (Magnificent) - ragyogó (Brilliant) - kiemelkedő (Outstanding) - nagyszerű (Formidable) - remek (Excellent) - jó (Solid) - megfelelő (Passable) - középszerű (Inadequate) - gyenge (Weak) - csapnivaló (Poor) - pocsék (Wretched) - katasztrofális (Disastrous) - nem létező (Non-existent).
 
-Caveat: the order in the source (`isteni csodas varazslatos legendas foldontuli titani termeszetfeletti vilagklasszis...`) has `titani` between `foldontuli` and `termeszetfeletti`, mapping to Supernatural rather than Titanic - the Hungarian-to-English label drift is one level. Verify level-by-level on the player card when precision matters, "remek" = Solid is the safest anchor.
+Anchor points worth memorizing: **remek = Excellent**, **jó = Solid**, **megfelelő = Passable**. These are common skill ranges where managers compare players, getting them right matters most. The very top (isteni / csodás / varázslatos) and very bottom (pocsék / katasztrofális / nem létező) are rare enough that approximate placement is fine.
 
-**Form / scout (9 levels):** remek - jo - megfelelo - kozepszeru - gyenge - csapnivalo - pocsek - katasztrofalis - nem letezo (Excellent down to Non-existent).
+**Form / Forma and Scouting / játékosmegfigyelői rendszer (9 levels):** remek (Excellent) - jó (Solid) - megfelelő (Passable) - középszerű (Inadequate) - gyenge (Weak) - csapnivaló (Poor) - pocsék (Wretched) - katasztrofális (Disastrous) - nem létező (Non-existent).
 
-**Leadership / Vezetoi kepesseg (8 levels):** jo - megfelelo - kozepszeru - gyenge - csapnivalo - pocsek - katasztrofalis - nem letezo (Solid is max in-game, "jo" = Solid here).
+**Leadership / Vezetői képesség (8 levels):** jó (Solid) - megfelelő (Passable) - középszerű (Inadequate) - gyenge (Weak) - csapnivaló (Poor) - pocsék (Wretched) - katasztrofális (Disastrous) - nem létező (Non-existent). Note: Leadership only goes up to Solid in-game, so "jó" is the highest level here (it's NOT "Passable" in this scale, even though jó usually maps to Solid or below in other scales).
 
-**Formation XP / Formacio tapasztalati szintje (8 levels):** kiemelkedo - nagyszeru - remek - jo - megfelelo - kozepszeru - gyenge - csapnivalo (Outstanding down to Disastrous).
+**Formation XP / Formáció tapasztalati szintje (8 levels):** kiemelkedő (Outstanding) - nagyszerű (Formidable) - remek (Excellent) - jó (Solid) - megfelelő (Passable) - középszerű (Inadequate) - gyenge (Weak) - csapnivaló (Poor).
 
 ## Mood scales
 
-**Sponsor / Szponzorok (10 levels):** szerelmes versekkel bombaznak (Paradise) - karnevali (Walking on clouds) - fellegjaro (Delirious) - mamoros (High Spirits) - boldog (Satisfied) - elegedett (Content) - higgadt (Calm) - ingerult (Irritated) - duhodt (Furious) - gyilkos (Murderous).
+**Sponsor / Szponzorok (10 levels):** szerelmes versekkel bombáznak (Ecstatic, top tier) - karneváli (Euphoric) - fellegjáró (High-spirited) - mámoros (Delirious) - boldog (Satisfied) - elégedett (Content) - higgadt (Calm) - ingerült (Irritated) - dühödt (Furious) - gyilkos (Murderous).
 
-**Supporter mood / Szurkolok hangulata (12 levels):** szerelmes versekkel bombaznak - karnevali - fellegjaro - mamoros - boldog - elegedett - higgadt - csalodott - ingerult - merges - duhodt - gyilkos.
+**Supporter mood / A szurkolók hangulata (12 levels):** szerelmes versekkel bombáznak (Ecstatic) - karneváli (Euphoric) - fellegjáró (High-spirited) - mámoros (Delirious) - boldog (Satisfied) - elégedett (Content) - higgadt (Calm) - csalódott (Disappointed) - ingerült (Irritated) - mérges (Angry) - dühödt (Furious) - gyilkos (Murderous).
 
-**Match expectation / Szurkolok elvarasa:** Alazzuk meg oket (Walkover for us) - Gyerekjatek (Easy victory) - Gyozni fogunk (We'll win) - Mi vagyunk a favoritok (We're favourites) - Mi vagyunk elonyosebb helyzetben (Slight edge to us) - Szoros lesz (Tight match) - Ok vannak elonyosebb helyzetben (Slight edge to them) - Ok a favoritok (They're favourites) - Ki fogunk kapni (We'll lose) - Eselyunk sincs (No chance) - Jobb, ha ki se allunk (Walkover for them).
+**Match expectation / A szurkolók elvárása a mérkőzéssel kapcsolatban (11 levels):** Alázzuk meg őket (Walkover for us) - Gyerekjáték lesz (Easy victory) - Győzni fogunk (We'll win) - Mi vagyunk a favoritok (We're favourites) - Mi vagyunk előnyösebb helyzetben (Slight edge to us) - Szoros lesz (Tight match) - Ők vannak előnyösebb helyzetben (Slight edge to them) - Ők a favoritok (They're favourites) - Ki fogunk kapni (We'll lose) - Esélyünk sincs (No chance) - Jobb, ha ki se állunk (Walkover for them).
 
-**Season goal / Szurkolok celkituzese:** Kiemelkedunk ebbol a csoportbol (Stand out) - Nyerni kell ebben a szezonban (Must win this season) - Cel a bajnoki cim (Aim for title) - Az elso negyben a helyunk (Top 4) - Jo lenne a mezony kozepen vegezni (Mid-table is fine) - Kuzdeni kell a bennmaradasert (Fight to stay up) - Ebben a csoportban minden nap ajandek (Every day is a gift) - Nem vagyunk idevalok (We don't belong here).
+**Season goal / A szurkolók célkitűzése a szezonban (8 levels):** Kiemelkedünk ebből a csoportból (Stand out, above this division) - Nyerni kell ebben a szezonban (Must win this season) - Cél a bajnoki cím (Aim for title) - Az első négyben a helyünk (Top 4) - Jó lenne a mezőny közepén végezni (Mid-table is fine) - Küzdeni kell a bennmaradásért (Fight to stay up) - Ebben a csoportban minden nap ajándék (Every day is a gift) - Nem vagyunk idevalók (We don't belong here).
 
 ## Team / Player attributes
 
-**Team Spirit / Csapatszellem (11 levels):** foldi paradicsom (Paradise on Earth) - fellegjaro (Walking on clouds) - mamoros (Delirious) - boldog (Satisfied) - elegedett (Content) - nyugodt (Calm) - huvos (Composed) - ingerult (Irritated) - duhodt (Furious) - gyilkos (Murderous) - hideghaborus (Like Cold War). Note: 11 levels in Hungarian (extra "hideghaborus" at the bottom) - rulebook clipping shows this, standard English label list has 10.
+**Team Spirit / Csapatszellem (11 levels):** földi paradicsom (Paradise on Earth, top) - fellegjáró (Walking on clouds) - mámoros (Delirious) - boldog (Satisfied) - elégedett (Content) - nyugodt (Calm) - hűvös (Composed) - ingerült (Irritated) - dühödt (Furious) - gyilkos (Murderous) - hidegháborús (Cold War, lowest). The Hungarian source has 11 levels (one more than the English-side English list which has 10), the extra bottom level "hidegháborús" describes a TS so low it feels like the Cold War.
 
-**Confidence / Onbizalom (10 levels):** teljesseggel onelegult (Exaggerated) - onhitt (Wonderful) - kisse tulzott (Strong) - kivalo (Decent) - eros (Average) - stabil (Poor) - csapnivalo (Wretched) - pocsek (Disastrous) - katasztrofalis (Hopeless) - nem letezo (Non-existent).
+**Confidence / Önbizalom (10 levels):** teljességgel önelégült (Completely exaggerated, top) - önhitt (Exaggerated) - kissé túlzott (Slightly exaggerated) - kiváló (Wonderful) - erős (Strong) - stabil (Decent) - csapnivaló (Poor) - pocsék (Wretched) - katasztrofális (Disastrous) - nem létező (Non-existent).
 
-**Agreeability / Egyuttmukodokeszseg:** Imadott csapattag (Beloved) - Nepszeru no (Popular) - Szimpatikus no (Sympathetic) - Kedves no (Pleasant) - Ontorvenyu (Controversial) - Bajkevero noszemely (Nasty). Female forms ("no", "noszemely") appear in HFI (women's-Hattrick), the men's game uses the male equivalents.
+**Agreeability / Együttműködőkészség (6 levels):** Imádott csapattag (Adored teammate, top) - Népszerű (Popular) - Szimpatikus (Sympathetic) - Kedves (Pleasant) - Öntörvényű (Controversial) - Bajkeverő (Troublemaker / Nasty, bottom). In the HFI (women's Hattrick), each level has a female grammatical form ("nő", "nőszemély"), e.g. "Népszerű nő", "Bajkeverő nőszemély". The standard men's Hattrick uses the gender-neutral or male forms above.
 
-**Honesty / Becsuletesseg:** angyali (Saintly) - igazsagos (Righteous) - egyenes (Honest) - becsuletes (Upright) - sunyi (Dishonest) - balhes (Infamous).
+**Honesty / Becsületesség (6 levels):** angyali (Saintly, top) - igazságos (Righteous) - egyenes (Upright) - becsületes (Honest) - sunyi (Dishonest) - balhés (Infamous, bottom).
 
-**Aggressiveness / Agresszivitas:** bizonytalan (Unstable) - lobbanekony (Hot-headed) - temperamentumos (Temperamental) - kiegyensulyozott (Balanced) - higgadt (Calm) - jamor (Peaceful).
+**Aggressiveness / Agresszivitás (6 levels):** bizonytalan (Unstable, top) - lobbanékony (Fiery) - temperamentumos (Temperamental) - kiegyensúlyozott (Balanced) - higgadt (Calm) - jámbor (Tranquil, bottom).
 
 ## Common Hungarian Hattrick terms
 
