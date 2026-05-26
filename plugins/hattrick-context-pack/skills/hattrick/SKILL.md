@@ -24,16 +24,26 @@ Always reference **concrete numbers and mechanics** where possible. Flag when so
 - Max 100% training intensity; stamina share cuts into skill training. Formula: `Skill Training = Intensity − (Intensity × Stamina%)`.
 - New player purchases: matches played for previous teams **do not count** for training. Stamina is treated as if 0 minutes played that week (= 50% stamina training). Form does take previous matches into account.
 
-### Training Types & Optimal Formations
-| Training | 100% Position | 50% Position | Formation Tips |
-|----------|--------------|--------------|----------------|
-| Goalkeeping | GK | — | Any formation. SP-trains GK +25% (capped at +1.0 level total). |
-| Defending | CD | WB | 5-3-2 or 5-4-1 |
-| Playmaking | IM | W | 3-5-2 or 4-5-1 |
-| Winger | W | WB | Any with 2 wingers |
-| Scoring | FW | — | 3-4-3, 4-3-3, 2-5-3 |
-| Passing (Cross) | W + WB | — | Any with 2W+2WB |
-| Set Pieces | Any SP taker | — | Slow training. GK & nominated SP-taker get +25% bonus, capped at +1.0 level. |
+### Training Types
+
+Bracket convention from the official Hattrick rulebook: no brackets = full training effect, (single brackets) = small effect, ((double brackets)) = very small "osmosis" effect. The rulebook only gives one explicit 50% rate, **wingers receive half training in Playmaking, and wing backs receive half training in Crossing**. All other positions follow the bracket scale above.
+
+| Training | Skill developed | Who gets it | Match formation tips |
+|----------|-----------------|-------------|----------------------|
+| Goalkeeping | Goalkeeping | Goalkeepers | Any |
+| Defending | Defending | Defenders, ((all on field)) | 5-3-2, 5-4-1, 5-5-0 |
+| Defensive positions | Defending | (GK, defenders, IMs, wingers), ((all on field)) | Any |
+| Playmaking | Playmaking | IMs, wingers at 50%, ((all on field)) | 3-5-2, 4-5-1 |
+| Crossing (Winger) | Winger | Wingers, wing backs at 50%, ((all on field)) | Any with 2 wingers |
+| Wing attacks | Winger | Forwards and wingers, ((all on field)) | Any with 2 wingers |
+| Scoring | Scoring | Forwards, ((all on field)) | 3-4-3, 4-3-3, 2-5-3 |
+| Shooting | (Scoring) + ((Set pieces)) | (All on field) | Any |
+| Short passes | Passing | IMs, wingers, forwards, ((all on field)) | Any |
+| Through passes | Passing | Defenders, IMs, wingers, ((all on field)) | Any |
+| Set Pieces | Set Pieces | All on field, +25% to nominated SP-taker and GK | Any (slow training) |
+| Individual (youth only) | Position-relevant skill | (All on field) | Youth only |
+
+A player gets full training only with 90 minutes played in a relevant position across the week (league + friendly combined). Less than 90 minutes = proportional training. Source: official Hattrick Rulebook, section 5 Training.
 
 **Agglomeration penalties** (officially confirmed — since the new ME). All skills of the players in that compartment are reduced:
 - 2 Central Defenders: **−3.6%** each, 3 CDs: **−10%** each
