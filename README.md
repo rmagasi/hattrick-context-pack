@@ -117,6 +117,64 @@ This works in chat-only tools, browser-based LLMs, internal chatbots, anything t
 
 When in doubt, include them all, the total is well under any modern LLM's context window.
 
+## Pairing the skill with HRF files
+
+The knowledge pack on its own answers general Hattrick questions ("what's the LS tactic formula?", "how does formation XP work?"). The real power comes from combining it with your own team's data, which lives in HRF files (HO's local team export format).
+
+### What an HRF is
+
+An HRF is a plain-text INI-style snapshot of one team, full skill levels for own teams, public-visible skills for opponents, plus league standing, match history, finances (own teams only), and more. Hattrick Organizer (HO!) generates them automatically when you click File → Download for any team. Each download is a fresh point-in-time snapshot.
+
+### Getting your HRFs
+
+If you already use HO! on your desktop:
+
+1. Open HO! and log in.
+2. File → Download for your team. HO! fetches the latest data via CHPP and writes an HRF to its configured HRF folder.
+3. To scout an opponent, repeat for the opponent's team ID. HO! detects you're not the owner and writes a public-skills-only HRF.
+
+Default HRF folder locations:
+
+- Windows: `%APPDATA%\HO\HRF\` (e.g. `C:\Users\<you>\AppData\Roaming\HO\HRF\`)
+- macOS: `~/Library/Application Support/HO/HRF/`
+- Linux: `~/.HO/HRF/` (varies by HO! distribution)
+
+HO!'s own settings panel shows the configured HRF path, override it there if you want them written somewhere your AI tool can read easily.
+
+### Connecting an HRF to the AI
+
+How you feed the HRF to the AI depends on the tool:
+
+- **Claude Desktop / Cowork**: drag the .hrf file into the chat, or give Claude folder access via the file tool / a Filesystem MCP, then ask it to read the latest HRF.
+- **ChatGPT (web)**: drag the .hrf into the chat as an attachment, ChatGPT reads plain text files.
+- **Custom GPT**: same as above per conversation, or pre-upload a representative HRF to the GPT's knowledge if you want it always available.
+- **Gemini**: attach the .hrf via the upload button.
+- **Cursor / Continue / Cline**: keep the HRFs in a folder inside your project, the agent can read them via its file tools.
+
+### Example prompts
+
+Once the skill is installed AND your HRF is attached, you can ask team-specific questions:
+
+```
+I've attached my latest HRF for Hetvehely. Using the Hattrick context pack,
+recommend a starting XI for our next league match. We're at home, weather
+forecast is sunny.
+```
+
+```
+Two HRFs attached, mine (Hetvehely) and the opponent's (FC Bombázók) from
+this week. Scout the opponent, identify their weak sectors, and suggest
+formation + tactic.
+```
+
+```
+HRF attached. We just lost 0-5 and team spirit dropped from Walking on
+Clouds to Irritated. What does the data say about the cause, and what
+should we change for next week (training, lineup, staff)?
+```
+
+The skill gives the AI the rules, the HRF gives it your actual team state. Together they produce specific, game-aware advice instead of generic Hattrick wisdom.
+
 ## Contributing
 
 This is a community knowledge pack. Rule changes, additions, corrections, new language packs, all welcome. See `CONTRIBUTING.md` for the contribution flow and style guidelines. Two important rules upfront:
