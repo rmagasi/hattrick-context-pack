@@ -157,14 +157,18 @@ Note: convention is non-existent=0, disastrous starts at 0.01–1.00, wretched 1
 - Each cycle has 6 phases in order: Special Event → Chance → Counter Attack (if missed) → Yellow/Red Card → Injury → Team Confusion.
 
 ### Formations Overview
-| Formation | Strengths | Weaknesses | Best Counter |
-|-----------|-----------|------------|--------------|
-| 4-4-2 | Balanced, versatile | Nothing dominant | Exploit weak spots |
-| 3-5-2 | Strong midfield | Weaker defence | Pack midfield, attack wings |
-| 4-5-1 | Strong midfield + defence | Weak attack | Dominate & wait |
-| 5-3-2 | Rock solid defence | Weak attack, abandoned wing | Attack wings, use OCD |
-| 4-3-3 | Very strong attack | Weak midfield | Win possession |
-| 3-4-3 | Very strong attack | Weak midfield, weak defence | Win possession or lose |
+
+**Critical convention to internalize**: the "defense" number in a Hattrick formation name is the total of CDs + WBs combined, NOT a CD count. Wing backs are defenders. A "5-3-2" is 3 CDs + 2 WBs, a "3-5-2" is 1 CD + 2 WBs (the 3 = 1 + 2). Setting "3 CDs and zero WBs" in a 3-5-2 leaves both flanks defensively naked and is essentially never correct.
+
+| Formation | Defender split (CD + WB) | Mid split (W + IM) | FW | Strengths | Weaknesses | Best Counter |
+|---|---|---|---|---|---|---|
+| 4-4-2 | 2 CD + 2 WB | 2 W + 2 IM | 2 FW | Balanced, versatile | Nothing dominant | Exploit weak spots |
+| 3-5-2 | 1 CD + 2 WB | 2 W + 3 IM | 2 FW | Strong midfield | Weaker central defence | Pack midfield, attack centre |
+| 4-5-1 | 2 CD + 2 WB | 2 W + 3 IM | 1 FW | Strong midfield + defence | Weak attack | Dominate & wait |
+| 5-3-2 | 3 CD + 2 WB | 0 W + 3 IM | 2 FW | Rock solid defence | Weak attack, abandoned wing | Attack wings, use OCD |
+| 4-3-3 | 2 CD + 2 WB | 0 W + 3 IM | 2 W-FW + 1 FW | Very strong attack | Weak midfield | Win possession |
+| 3-4-3 | 1 CD + 2 WB | 2 W + 2 IM | 2 W-FW + 1 FW | Very strong attack | Weak midfield, weak defence | Win possession or lose |
+| 5-5-0 | 3 CD + 2 WB | 2 W + 3 IM | 0 FW | LS-tactic specialist, control | No forwards = LS-only attack | Pressing teams nullify LS |
 
 **Formation experience**: Teams build XP in formations they use repeatedly — using an unfamiliar formation carries a penalty. Stick to 1-2 formations long-term.
 
