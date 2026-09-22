@@ -56,7 +56,7 @@ Sourced from **Appendix 2 of the rulebook in the target language**. Keep the str
 
 ## Review process
 
-The repository maintainer reviews PRs. Expect a few days for response, possibly longer during busy weeks. Maintainer might ask for changes before merging. After merge, the version in `.claude-plugin/plugin.json` gets bumped, and downstream consumers (Claude plugin installations, the Hattrick AI Context web service when it ships) pick up the change on their next refresh.
+The repository maintainer reviews PRs. Expect a few days for response, possibly longer during busy weeks. Maintainer might ask for changes before merging. After merge, downstream consumers (Claude plugin installations, the Hattrick AI Context web service when it ships) pick up the change on their next refresh.
 
 ## Code of conduct
 

@@ -13,7 +13,6 @@
       "name": "hattrick-context-pack",
       "source": "./plugins/hattrick-context-pack",
       "description": "Expert Hattrick.org online football manager assistant. Training, match tactics, formations, economy, youth academy, cups, and national teams. Optional language packs under skills/hattrick/references/languages/.",
-      "version": "2.0.1",
       "category": "knowledge",
       "keywords": ["hattrick", "football-manager", "sports", "game-assistant", "ai-knowledge-pack"],
       "license": "MIT"
