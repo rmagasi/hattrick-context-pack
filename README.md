@@ -102,10 +102,15 @@ This works in chat-only tools, browser-based LLMs, internal chatbots, anything t
 
 ### Which references to include
 
-`SKILL.md` is the main file and covers 80% of common questions. The `references/` files are deep dives, load them when your question touches that area:
+`SKILL.md` is the hub: routing table, critical conventions and quick reference. The main content sits in five `references/core-*.md` files, one per topic, and the other `references/` files are deeper tables. Include the core files for your topic, plus deep dives when the question needs them:
 
 | File | Load when asking about |
 |------|------------------------|
+| `core-training.md` | Training types, trainees, coaches and staff, skill scale, aging |
+| `core-tactics.md` | Ratings, chances, formations, tactics, orders, team spirit, specialties, devblog insights |
+| `core-economy.md` | Income, expenses, arena, fans, sponsors, staff rotation |
+| `core-youth.md` | Youth academy, scout network, pull timing |
+| `core-leagues-cups.md` | Series, promotion, prize money, cups, national teams |
 | `training-detail.md` | Training speed, skill pops, stamina tables |
 | `tactics-detail.md` | Ratings formulas, CA/LS/AOW math, formation matchups |
 | `match-engine-deep.md` | Special events, man marking, corners, chance distribution |
