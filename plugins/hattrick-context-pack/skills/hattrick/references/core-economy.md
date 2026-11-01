@@ -32,7 +32,7 @@ Core section of the hattrick skill, loaded on demand. Deeper tables live in the 
 
 ## Arena Management
 - Bigger arena = more capacity = more potential match income.
-- Arena upgrades are expensive and take several weeks — only upgrade if consistently selling out.
+- Arena upgrades are expensive and take one or more weeks — only upgrade if consistently selling out.
 - Arena maintenance paid weekly regardless of whether you play at home.
 - Promotions: +10% supporters; Relegations: −10% supporters.
 - Walk-over (WO) in league/cup: −10% supporters. Since Apr 2023, WOs are very rare — if you don't field a valid lineup, club functionaries step in (with TS, form, confidence, formation XP penalties for that match only). Training still happens.
@@ -40,12 +40,12 @@ Core section of the hattrick skill, loaded on demand. Deeper tables live in the 
 **Ticket prices and weekly maintenance per seat:**
 | Seat type | Income / ticket | Maint. / week | Build cost | Demolish cost |
 |---|---:|---:|---:|---:|
-| Terraces (standing) | 1,400 € | 100 € | 9,000 € | 1,200 € |
-| Basic seats | 2,000 € | 140 € | 15,000 € | 1,200 € |
-| Covered seats | 3,800 € | 200 € | 18,000 € | 1,200 € |
-| VIP box | 7,000 € | 500 € | 60,000 € | 1,200 € |
+| Terraces (standing) | 7 € | 0.50 € | 45 € | 6 € |
+| Basic seats | 10 € | 0.7 € | 75 € | 6 € |
+| Covered seats | 19 € | 1 € | 90 € | 6 € |
+| VIP box | 35 € | 2.5 € | 300 € | 6 € |
 
-Each construction project has a flat 2,000 € base cost on top of the per-seat cost. Bad weather pushes more fans toward covered/VIP seats - build a healthy mix of all four. Annual supporter membership fee: 6 €/fan (paid once per season).
+Each construction project has a flat 10,000 € base cost on top of the per-seat cost. Bad weather pushes more fans toward covered/VIP seats - build a healthy mix of all four. Annual supporter membership fee: 6 €/fan (paid once per season).
 
 **Match-day income split:**
 - League match: 100% to home team.
