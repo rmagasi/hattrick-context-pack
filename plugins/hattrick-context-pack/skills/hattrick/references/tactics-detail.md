@@ -207,9 +207,14 @@ Tactic Level = (Σ Passing of outfield players) / 5 − 2
 **Oct 2021 review**: Both tactics now generate guaranteed attacks dedicated to the chosen tactic, addressing the previous complaint that attacks could randomly fall outside the redirected sector.
 
 ### Play Creatively (PC)
-- Only Unpredictable players benefit.
-- Creates bonus special events for those players.
-- Niche — only useful with multiple Unpredictable specialists in central/attacking positions.
+- Raises the chance that the match engine generates a special event instead of a normal event, by up to ~30%; about 15% more if both teams play PC. Positive and negative SEs both become more frequent, for both teams.
+- Raises the maximum number of SEs in the match by 1 (by 2 if both teams play PC).
+- Tilts the choice of which team gets each SE toward the PC team.
+- Weather SEs become slightly more frequent.
+- Cost: all defence ratings −7.5%.
+- Tactic level: Passing counts 4× as much as Experience; Unpredictable players count double; the goalkeeper doesn't count. The exact formula is not known.
+- Only pays off when the lineup has more (and more varied) useful specialties than the opponent's; against a more specialised opponent the extra SEs can favour them.
+- Source: [wiki: Play creatively](https://wiki.hattrick.org/wiki/Play_creatively).
 
 ---
 

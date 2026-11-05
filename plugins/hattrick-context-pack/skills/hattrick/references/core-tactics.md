@@ -61,7 +61,7 @@ Core section of the hattrick skill, loaded on demand. Deeper tables live in the 
 - **Counter Attack (CA)**: Gives up midfield in exchange for bonus counter-attack chances on opponent missed chances. CA level powered by `0.017272 × Σ[Form × (2×Passing + Defending)] + 1.042313` for the defenders. **Passing counts double** vs Defending. Strong defence required. **Note**: the old `10.8 × ca/ra` conversion formula is wrong — actual conversion barely varies with ratings (per nickarana's Live data, see `references/tactics-detail.md`).
 - **Attack in Middle (AiM)** & **Attack on Wings (AoW)**: Powered by passing — `Tactic Level = (Σ Passing of outfield players) / 5 − 2`. Redirects attacks; opponent sector defence weakened. Since Oct 2021, both have a guaranteed minimum of attacks dedicated to the chosen tactic, addressing earlier complaints that they were too random.
 - **Long Shots (LS)**: Extra scoring chances via long-range attempts. `LS Tactic Level = 1.66 × avg(Scoring) + 0.55 × avg(Set Pieces) − 7.6`. Penalties: −5% midfield, −2.7% attack. Since Oct 2021, Pressing teams have a guaranteed minimum chance of pressing away an LS attempt.
-- **Play Creatively (PC)**: Unpredictable players get boosted specials. Niche use.
+- **Play Creatively (PC)**: More special events, positive and negative, for both teams, with the PC team more likely to get each one; costs 7.5% on all defence ratings. Tactic level from Passing and Experience (Unpredictable players count double).
 
 ## Individual Player Orders & Positions
 Each pitch position has 3–5 order variants — these are **codes you'll see in HO/Foxtrick**:
