@@ -79,8 +79,8 @@ Tactical Assistant unlocks extra order slots (1 per TA level, max +5).
 ## Team Spirit & Confidence
 - **Team Spirit (TS)**: Directly affects midfield rating.
 - **Confidence**: Affects goals scored per chance.
-- PIC (Play It Cool) = maintains TS, use when result doesn't matter.
-- MOTS (Match of the Season) = boosts TS significantly, but disables pullback/match dynamics — use for a must-win.
+- PIC (Play It Cool) = lower midfield in this match, but TS rises afterwards (×1.333), use when result doesn't matter.
+- MOTS (Match of the Season) = higher midfield in this match, but TS is halved afterwards and pullback is disabled — use for a must-win.
 - Changing formation lowers TS slightly.
 
 **TS × Attitude × Midfield matrix:**
