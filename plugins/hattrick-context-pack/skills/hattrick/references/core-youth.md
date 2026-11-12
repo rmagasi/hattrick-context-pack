@@ -11,7 +11,7 @@ Core section of the hattrick skill, loaded on demand. Deeper tables live in the 
 - Scouts search for prospects — quality of scout affects quality of finds.
 - Players arrive with hidden skills and a **potential cap** per skill.
 - You can't always see their skill level — use performance + coach reports to estimate.
-- Training uses **primary + secondary training** each week:
+- Training uses **primary + secondary training**, applied **per match**, not weekly: league matches give full effect, friendlies 80%, so a week with a friendly and a league match trains twice. Orders can change between matches (up to 10 minutes before kick-off), and each match can bring its own coach report and skill reveals (none if fewer than 8 players finish the match):
   - Primary training: normal YA boost (~slightly less than senior)
   - Secondary training: 2/3 of primary boost
   - **Don't set same training twice**: 20% combined is lost → total is only 1.33× primary, plus you waste a coach skill-revelation slot.
