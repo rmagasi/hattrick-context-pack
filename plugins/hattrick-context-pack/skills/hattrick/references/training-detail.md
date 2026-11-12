@@ -139,7 +139,7 @@ When you buy a player from another team:
 
 ## Youth Academy — Training Mechanics
 
-**Primary + Secondary** trainings each week:
+**Primary + Secondary** trainings, applied **per match** (league full effect, friendly 80%; two matches in a week train twice; orders can change between matches):
 - Primary training: ~slightly less than senior training boost.
 - Secondary training: 2/3 of primary boost.
 - **Don't pick the same training twice**: 20% of combined effect is lost → total is only 1.33× primary, plus you waste a coach skill-revelation slot for that player.
